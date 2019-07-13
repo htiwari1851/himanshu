@@ -379,7 +379,13 @@ footer a {
 .icon-all{
     display: flex;
 }
-.top .foot a:hover{
+.top a{
+    /* background-color: #555; */
+    display: inline-block;
+    /* use inline-block for a */
+}
+.top  a:hover{
+    /* color: #2ecc71; */
     transform: scale(1.5);
 }
 
